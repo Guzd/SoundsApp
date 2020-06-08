@@ -1,4 +1,4 @@
-# Tje Sounds App
+# The Sounds App
 
 App created using JavaScript vanilla and paperJS.
 
