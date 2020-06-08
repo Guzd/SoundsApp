@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="author" content="Diana Gutiérrez">
+  <meta name="description"
+    content="This app reproduce different sounds and show some colors on the screen as the user press letters in the keyboard.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="game, sounds, paperjs, js, vanilla, colors">
   <link rel="stylesheet" href="circles.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.js"></script>
-  <script type="text/javascript" src="paper-full.js"></script> 
-  <script type="module"> 
-   import { keyloadata } from "./data.js";
+  <script type="text/javascript" src="paper-full.js"></script>
+  <script type="module">
+    import { keyloadata } from "./data.js";
    var keyData = keyloadata;
     paper.install(window);  
     window.onload = function() {
@@ -31,10 +36,12 @@
 			}
 		}
   }   
-  </script> 
+  </script>
   <title>Circles</title>
 </head>
+
 <body>
   <canvas id="myCanvas" resize></canvas>
 </body>
+
 </html>
